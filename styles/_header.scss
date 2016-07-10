@@ -1,0 +1,62 @@
+header {
+    background-color: $primary-color;
+    padding: 1%;
+    box-shadow: 0px 0px 10px 5px grey;
+    #logo-holder {
+        h1 {
+            //-------------------------
+            //-------------------------
+            text-align: center;
+            font-family: "Anivers";
+            border-radius: 5px;
+            padding: 1%;
+            border-top: 3px solid white;
+            border-bottom: 3px solid white;
+            @include font(3em);
+            color: white;
+            span {
+                color: black;
+            }
+        }
+    }
+    #seach-panel {
+        #seach-holder {
+            border-radius: 5px;
+            input {
+                font-family: "Roboto";
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                @include font(1.4em);
+                font: inherit;
+                border: none;
+            }
+            span {
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                @include font(1.41em);
+                background-color: white;
+                cursor: pointer;
+            }
+        }
+    }
+    nav {
+        border-top: 3px solid white;
+        border-bottom: 3px solid white;
+        border-radius: 5px;
+        ul {
+            li {
+                font-family: "Anivers";
+                font-weight: bold;
+                @include font(1.5em);
+                color: black;
+                width: 15%;
+                margin: 1%;
+                padding: 1%;
+                display: inline-block;
+                list-style: none;
+                background-color: $accent-color;
+                @include button;
+            }
+        }
+    }
+}

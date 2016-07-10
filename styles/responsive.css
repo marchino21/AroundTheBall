@@ -1,0 +1,52 @@
+@media (max-width: 63em) {
+  /* line 3, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/responsive.scss */
+  #seach-panel input {
+    font-size: 1.5em !important; }
+  /* line 8, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/responsive.scss */
+  nav li {
+    display: inline-block;
+    width: 17% !important; }
+  /* line 13, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/responsive.scss */
+  #content {
+    padding: 3%;
+    display: flex;
+    flex-direction: column-reverse; }
+  /* line 18, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/responsive.scss */
+  menu {
+    overflow: hidden;
+    display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: row; }
+    /* line 23, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/responsive.scss */
+    menu li {
+      text-align: center;
+      vertical-align: middle;
+      width: 18%;
+      display: inline-block !important; }
+  /* line 31, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/responsive.scss */
+  .item-st p {
+    font-size: 0.9em !important; }
+  /* line 34, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/responsive.scss */
+  .item-st b {
+    font-size: 1.2em !important; } }
+
+@media (max-width: 47em) {
+  /* line 42, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/responsive.scss */
+  #seach-panel input {
+    font-size: 1em !important; }
+  /* line 46, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/responsive.scss */
+  #menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer; }
+  /* line 52, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/responsive.scss */
+  .item-st p {
+    font-size: 0.7em !important; }
+  /* line 55, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/responsive.scss */
+  .item-st b {
+    font-size: 1.2em !important; }
+  /* line 59, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/responsive.scss */
+  footer {
+    padding: 5%; } }
+
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,183 @@
+#content {
+    aside {
+        padding: 1%;
+        background-color: $primary-color-light;
+        menu {
+            text-align: left;
+            li {
+                display: inline;
+                font-weight: bold;
+                @include font(1.3em);
+                display: block;
+                padding: 2%;
+                margin: 2% auto;
+                font-family: "Roboto";
+                list-style: none;
+                cursor: pointer;
+                border-radius: 5px;
+                box-shadow: 0px 2px 10px 0.5px grey;
+                transition: 0.2s;
+                background-color: $accent-color;
+                &:hover {
+                    background-color: white;
+                    transform: scale(1.05);
+                    box-shadow: 0px 3px 10px 0.5px black;
+                    color: $accent-color;
+                }
+                &:active {
+                    transform: scale(1);
+                    box-shadow: 0px 2px 10px 0.5px grey;
+                }
+            }
+        }
+    }
+    #main-content {
+        padding: 1%;
+        .tag-name {
+            display: inline-block;
+            width: 100%;
+            padding: 1%;
+            @include font(1.4em);
+            font-family: "Anivers";
+            text-align: center;
+            margin-bottom: 1%;
+            border-top: 3px solid $primary-color;
+            border-bottom: 3px solid $primary-color;
+            border-radius: 5px;
+        }
+        img {
+            display: block;
+            width: 100%;
+        }
+        .more-def {
+            display: inline-block;
+            width: 100%;
+            text-align: right;
+            margin: 1% 0;
+            padding: 1%;
+            span {
+                background-color: $accent-color;
+                padding: 0.5%;
+                font-family: "Roboto";
+                @include button;
+                @include font(1.1em);
+            }
+        }
+        #news-sec {
+            padding: 1%;
+            #main-new {
+                border: 3px solid $accent-color;
+                border-radius: 5px;
+                cursor: pointer;
+                padding: 1%;
+                p {
+                    b {
+                        @include font(1.6em);
+                        font-family: "Anivers";
+                    }
+                    @include font(1.15em);
+                    font-family: "Roboto";
+                    &:last-child {
+                        text-indent: 2%;
+                    }
+                }
+            }
+            .add-new {
+                border-radius: 5px;
+                border: 1px solid $accent-color;
+                cursor: pointer;
+                padding: 1%;
+                p {
+                    b {
+                        @include font(1.1em);
+                        font-family: "Anivers";
+                    }
+                    @include font(1.05em);
+                    font-family: "Roboto";
+                    &:last-child {
+                        text-indent: 2%;
+                    }
+                }
+            }
+        }
+        #match-sec {
+            padding: 1%;
+            #matches {
+                li {
+                    padding: 1%;
+                    list-style: none;
+                    div {
+                        padding: 1%;
+                        &:first-child {
+                            border-radius: 5px;
+                            background-color: $primary-color-light;
+                            span {
+                                font-family: "Roboto";
+                                &:first-child {
+                                    font-weight: bold;
+                                    @include font(1.2em);
+                                }
+                                &:last-child {
+                                    @include font(1.1em);
+                                }
+                            }
+                        }
+                        &:last-child {
+                            border-radius: 5px;
+                            background-color: $accent-color;
+                            span {
+                                color: black;
+                                font-family: "Roboto";
+                                @include font(1.1em);
+                                &:first-child {
+                                    font-weight: bold;
+                                }
+                                &:last-child {
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #gallery-sec {
+            padding: 1%;
+            .gallery-item {
+                border-radius: 5px;
+                border: 1px solid $accent-color;
+                cursor: pointer;
+                padding: 1%;
+                p {
+                    display: inline-block;
+                    width: 100%;
+                    font-family: "Roboto";
+                    @include font(1.1em);
+                    font-weight: bold;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .item-st {
+        transition: 0.2s;
+        & img {
+            -webkit-filter: blur(0.8px);
+        }
+        &:hover {
+            box-shadow: 0px 0px 10px 1px $secondary-text-color;
+            z-index: 2;
+            background-color: $accent-color;
+            transform: scale(1.02);
+            -webkit-filter: blur(0px);
+        }
+        &:active {
+            box-shadow: 0px 0px 5px 1px black;
+            background-color: $accent-color;
+            transform: scale(1);
+            & img {
+                -webkit-filter: blur(0px);
+            }
+        }
+    }
+}

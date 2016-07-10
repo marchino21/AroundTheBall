@@ -1,0 +1,27 @@
+
+footer {
+    font-family: "Roboto";
+    background-color: $divider-color;
+    color: black;
+    #pre-footer {
+        &>div:first-child {
+            @include font(1.2em);
+        }
+        &>div:last-child {
+            @include font(1.2em);
+            &>div {
+                display: inline-block;
+            }
+            h5 {
+                display: inline;
+            }
+            & span {
+                color: black;
+                display: inline;
+            }
+        }
+    }
+    #post-footer {
+        @include font(1.1em);
+    }
+}

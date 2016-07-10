@@ -1,0 +1,599 @@
+/* line 1, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+header {
+  background-color: #8BC34A;
+  padding: 1%;
+  box-shadow: 0px 0px 10px 5px grey; }
+  /* line 6, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+  header #logo-holder h1 {
+    text-align: center;
+    font-family: "Anivers";
+    border-radius: 5px;
+    padding: 1%;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    font-size: 1.2em;
+    color: white; }
+    @media (min-width: 33em) {
+      /* line 6, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+      header #logo-holder h1 {
+        font-size: 1.5em; } }
+    @media (min-width: 48em) {
+      /* line 6, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+      header #logo-holder h1 {
+        font-size: 2em; } }
+    @media (min-width: 64em) {
+      /* line 6, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+      header #logo-holder h1 {
+        font-size: 2.5em; } }
+    @media (min-width: 75em) {
+      /* line 6, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+      header #logo-holder h1 {
+        font-size: 3em; } }
+    /* line 17, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+    header #logo-holder h1 span {
+      color: black; }
+  /* line 23, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+  header #seach-panel #seach-holder {
+    border-radius: 5px; }
+    /* line 25, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+    header #seach-panel #seach-holder input {
+      font-family: "Roboto";
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      font-size: 0.56em;
+      font: inherit;
+      border: none; }
+      @media (min-width: 33em) {
+        /* line 25, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+        header #seach-panel #seach-holder input {
+          font-size: 0.7em; } }
+      @media (min-width: 48em) {
+        /* line 25, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+        header #seach-panel #seach-holder input {
+          font-size: 0.93333em; } }
+      @media (min-width: 64em) {
+        /* line 25, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+        header #seach-panel #seach-holder input {
+          font-size: 1.16667em; } }
+      @media (min-width: 75em) {
+        /* line 25, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+        header #seach-panel #seach-holder input {
+          font-size: 1.4em; } }
+    /* line 33, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+    header #seach-panel #seach-holder span {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      font-size: 0.564em;
+      background-color: white;
+      cursor: pointer; }
+      @media (min-width: 33em) {
+        /* line 33, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+        header #seach-panel #seach-holder span {
+          font-size: 0.705em; } }
+      @media (min-width: 48em) {
+        /* line 33, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+        header #seach-panel #seach-holder span {
+          font-size: 0.94em; } }
+      @media (min-width: 64em) {
+        /* line 33, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+        header #seach-panel #seach-holder span {
+          font-size: 1.175em; } }
+      @media (min-width: 75em) {
+        /* line 33, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+        header #seach-panel #seach-holder span {
+          font-size: 1.41em; } }
+  /* line 42, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+  header nav {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    border-radius: 5px; }
+    /* line 47, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+    header nav ul li {
+      font-family: "Anivers";
+      font-weight: bold;
+      font-size: 0.6em;
+      color: black;
+      width: 15%;
+      margin: 1%;
+      padding: 1%;
+      display: inline-block;
+      list-style: none;
+      background-color: #00BCD4;
+      cursor: pointer;
+      border-radius: 5px;
+      box-shadow: 0px 3px 10px 0.5px grey;
+      transition: 0.2s; }
+      @media (min-width: 33em) {
+        /* line 47, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+        header nav ul li {
+          font-size: 0.75em; } }
+      @media (min-width: 48em) {
+        /* line 47, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+        header nav ul li {
+          font-size: 1em; } }
+      @media (min-width: 64em) {
+        /* line 47, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+        header nav ul li {
+          font-size: 1.25em; } }
+      @media (min-width: 75em) {
+        /* line 47, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_header.scss */
+        header nav ul li {
+          font-size: 1.5em; } }
+      /* line 6, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_button.scss */
+      header nav ul li:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 5px 10px 0.5px black;
+        color: white; }
+      /* line 11, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_button.scss */
+      header nav ul li:active {
+        transform: scale(1);
+        box-shadow: 0px 3px 10px 0.5px grey; }
+
+/* line 2, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+#content aside {
+  padding: 1%;
+  background-color: #DCEDC8; }
+  /* line 5, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+  #content aside menu {
+    text-align: left; }
+    /* line 7, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+    #content aside menu li {
+      display: inline;
+      font-weight: bold;
+      font-size: 0.52em;
+      display: block;
+      padding: 2%;
+      margin: 2% auto;
+      font-family: "Roboto";
+      list-style: none;
+      cursor: pointer;
+      border-radius: 5px;
+      box-shadow: 0px 2px 10px 0.5px grey;
+      transition: 0.2s;
+      background-color: #00BCD4; }
+      @media (min-width: 33em) {
+        /* line 7, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+        #content aside menu li {
+          font-size: 0.65em; } }
+      @media (min-width: 48em) {
+        /* line 7, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+        #content aside menu li {
+          font-size: 0.86667em; } }
+      @media (min-width: 64em) {
+        /* line 7, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+        #content aside menu li {
+          font-size: 1.08333em; } }
+      @media (min-width: 75em) {
+        /* line 7, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+        #content aside menu li {
+          font-size: 1.3em; } }
+      /* line 21, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+      #content aside menu li:hover {
+        background-color: white;
+        transform: scale(1.05);
+        box-shadow: 0px 3px 10px 0.5px black;
+        color: #00BCD4; }
+      /* line 27, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+      #content aside menu li:active {
+        transform: scale(1);
+        box-shadow: 0px 2px 10px 0.5px grey; }
+
+/* line 34, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+#content #main-content {
+  padding: 1%; }
+  /* line 36, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+  #content #main-content .tag-name {
+    display: inline-block;
+    width: 100%;
+    padding: 1%;
+    font-size: 0.56em;
+    font-family: "Anivers";
+    text-align: center;
+    margin-bottom: 1%;
+    border-top: 3px solid #8BC34A;
+    border-bottom: 3px solid #8BC34A;
+    border-radius: 5px; }
+    @media (min-width: 33em) {
+      /* line 36, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+      #content #main-content .tag-name {
+        font-size: 0.7em; } }
+    @media (min-width: 48em) {
+      /* line 36, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+      #content #main-content .tag-name {
+        font-size: 0.93333em; } }
+    @media (min-width: 64em) {
+      /* line 36, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+      #content #main-content .tag-name {
+        font-size: 1.16667em; } }
+    @media (min-width: 75em) {
+      /* line 36, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+      #content #main-content .tag-name {
+        font-size: 1.4em; } }
+  /* line 48, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+  #content #main-content img {
+    display: block;
+    width: 100%; }
+  /* line 52, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+  #content #main-content .more-def {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    margin: 1% 0;
+    padding: 1%; }
+    /* line 58, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+    #content #main-content .more-def span {
+      background-color: #00BCD4;
+      padding: 0.5%;
+      font-family: "Roboto";
+      cursor: pointer;
+      border-radius: 5px;
+      box-shadow: 0px 3px 10px 0.5px grey;
+      transition: 0.2s;
+      font-size: 0.44em; }
+      /* line 6, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_button.scss */
+      #content #main-content .more-def span:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 5px 10px 0.5px black;
+        color: white; }
+      /* line 11, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_button.scss */
+      #content #main-content .more-def span:active {
+        transform: scale(1);
+        box-shadow: 0px 3px 10px 0.5px grey; }
+      @media (min-width: 33em) {
+        /* line 58, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+        #content #main-content .more-def span {
+          font-size: 0.55em; } }
+      @media (min-width: 48em) {
+        /* line 58, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+        #content #main-content .more-def span {
+          font-size: 0.73333em; } }
+      @media (min-width: 64em) {
+        /* line 58, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+        #content #main-content .more-def span {
+          font-size: 0.91667em; } }
+      @media (min-width: 75em) {
+        /* line 58, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+        #content #main-content .more-def span {
+          font-size: 1.1em; } }
+  /* line 66, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+  #content #main-content #news-sec {
+    padding: 1%; }
+    /* line 68, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+    #content #main-content #news-sec #main-new {
+      border: 3px solid #00BCD4;
+      border-radius: 5px;
+      cursor: pointer;
+      padding: 1%; }
+      /* line 73, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+      #content #main-content #news-sec #main-new p {
+        font-size: 0.46em;
+        font-family: "Roboto"; }
+        /* line 74, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+        #content #main-content #news-sec #main-new p b {
+          font-size: 0.64em;
+          font-family: "Anivers"; }
+          @media (min-width: 33em) {
+            /* line 74, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+            #content #main-content #news-sec #main-new p b {
+              font-size: 0.8em; } }
+          @media (min-width: 48em) {
+            /* line 74, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+            #content #main-content #news-sec #main-new p b {
+              font-size: 1.06667em; } }
+          @media (min-width: 64em) {
+            /* line 74, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+            #content #main-content #news-sec #main-new p b {
+              font-size: 1.33333em; } }
+          @media (min-width: 75em) {
+            /* line 74, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+            #content #main-content #news-sec #main-new p b {
+              font-size: 1.6em; } }
+        @media (min-width: 33em) {
+          /* line 73, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+          #content #main-content #news-sec #main-new p {
+            font-size: 0.575em; } }
+        @media (min-width: 48em) {
+          /* line 73, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+          #content #main-content #news-sec #main-new p {
+            font-size: 0.76667em; } }
+        @media (min-width: 64em) {
+          /* line 73, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+          #content #main-content #news-sec #main-new p {
+            font-size: 0.95833em; } }
+        @media (min-width: 75em) {
+          /* line 73, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+          #content #main-content #news-sec #main-new p {
+            font-size: 1.15em; } }
+        /* line 80, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+        #content #main-content #news-sec #main-new p:last-child {
+          text-indent: 2%; }
+    /* line 85, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+    #content #main-content #news-sec .add-new {
+      border-radius: 5px;
+      border: 1px solid #00BCD4;
+      cursor: pointer;
+      padding: 1%; }
+      /* line 90, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+      #content #main-content #news-sec .add-new p {
+        font-size: 0.42em;
+        font-family: "Roboto"; }
+        /* line 91, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+        #content #main-content #news-sec .add-new p b {
+          font-size: 0.44em;
+          font-family: "Anivers"; }
+          @media (min-width: 33em) {
+            /* line 91, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+            #content #main-content #news-sec .add-new p b {
+              font-size: 0.55em; } }
+          @media (min-width: 48em) {
+            /* line 91, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+            #content #main-content #news-sec .add-new p b {
+              font-size: 0.73333em; } }
+          @media (min-width: 64em) {
+            /* line 91, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+            #content #main-content #news-sec .add-new p b {
+              font-size: 0.91667em; } }
+          @media (min-width: 75em) {
+            /* line 91, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+            #content #main-content #news-sec .add-new p b {
+              font-size: 1.1em; } }
+        @media (min-width: 33em) {
+          /* line 90, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+          #content #main-content #news-sec .add-new p {
+            font-size: 0.525em; } }
+        @media (min-width: 48em) {
+          /* line 90, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+          #content #main-content #news-sec .add-new p {
+            font-size: 0.7em; } }
+        @media (min-width: 64em) {
+          /* line 90, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+          #content #main-content #news-sec .add-new p {
+            font-size: 0.875em; } }
+        @media (min-width: 75em) {
+          /* line 90, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+          #content #main-content #news-sec .add-new p {
+            font-size: 1.05em; } }
+        /* line 97, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+        #content #main-content #news-sec .add-new p:last-child {
+          text-indent: 2%; }
+  /* line 103, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+  #content #main-content #match-sec {
+    padding: 1%; }
+    /* line 106, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+    #content #main-content #match-sec #matches li {
+      padding: 1%;
+      list-style: none; }
+      /* line 109, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+      #content #main-content #match-sec #matches li div {
+        padding: 1%; }
+        /* line 111, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+        #content #main-content #match-sec #matches li div:first-child {
+          border-radius: 5px;
+          background-color: #DCEDC8; }
+          /* line 114, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+          #content #main-content #match-sec #matches li div:first-child span {
+            font-family: "Roboto"; }
+            /* line 116, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+            #content #main-content #match-sec #matches li div:first-child span:first-child {
+              font-weight: bold;
+              font-size: 0.48em; }
+              @media (min-width: 33em) {
+                /* line 116, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+                #content #main-content #match-sec #matches li div:first-child span:first-child {
+                  font-size: 0.6em; } }
+              @media (min-width: 48em) {
+                /* line 116, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+                #content #main-content #match-sec #matches li div:first-child span:first-child {
+                  font-size: 0.8em; } }
+              @media (min-width: 64em) {
+                /* line 116, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+                #content #main-content #match-sec #matches li div:first-child span:first-child {
+                  font-size: 1em; } }
+              @media (min-width: 75em) {
+                /* line 116, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+                #content #main-content #match-sec #matches li div:first-child span:first-child {
+                  font-size: 1.2em; } }
+            /* line 120, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+            #content #main-content #match-sec #matches li div:first-child span:last-child {
+              font-size: 0.44em; }
+              @media (min-width: 33em) {
+                /* line 120, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+                #content #main-content #match-sec #matches li div:first-child span:last-child {
+                  font-size: 0.55em; } }
+              @media (min-width: 48em) {
+                /* line 120, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+                #content #main-content #match-sec #matches li div:first-child span:last-child {
+                  font-size: 0.73333em; } }
+              @media (min-width: 64em) {
+                /* line 120, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+                #content #main-content #match-sec #matches li div:first-child span:last-child {
+                  font-size: 0.91667em; } }
+              @media (min-width: 75em) {
+                /* line 120, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+                #content #main-content #match-sec #matches li div:first-child span:last-child {
+                  font-size: 1.1em; } }
+        /* line 125, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+        #content #main-content #match-sec #matches li div:last-child {
+          border-radius: 5px;
+          background-color: #00BCD4; }
+          /* line 128, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+          #content #main-content #match-sec #matches li div:last-child span {
+            color: black;
+            font-family: "Roboto";
+            font-size: 0.44em; }
+            @media (min-width: 33em) {
+              /* line 128, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+              #content #main-content #match-sec #matches li div:last-child span {
+                font-size: 0.55em; } }
+            @media (min-width: 48em) {
+              /* line 128, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+              #content #main-content #match-sec #matches li div:last-child span {
+                font-size: 0.73333em; } }
+            @media (min-width: 64em) {
+              /* line 128, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+              #content #main-content #match-sec #matches li div:last-child span {
+                font-size: 0.91667em; } }
+            @media (min-width: 75em) {
+              /* line 128, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+              #content #main-content #match-sec #matches li div:last-child span {
+                font-size: 1.1em; } }
+            /* line 132, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+            #content #main-content #match-sec #matches li div:last-child span:first-child {
+              font-weight: bold; }
+            /* line 135, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+            #content #main-content #match-sec #matches li div:last-child span:last-child {
+              font-weight: bold; }
+  /* line 144, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+  #content #main-content #gallery-sec {
+    padding: 1%; }
+    /* line 146, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+    #content #main-content #gallery-sec .gallery-item {
+      border-radius: 5px;
+      border: 1px solid #00BCD4;
+      cursor: pointer;
+      padding: 1%; }
+      /* line 151, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+      #content #main-content #gallery-sec .gallery-item p {
+        display: inline-block;
+        width: 100%;
+        font-family: "Roboto";
+        font-size: 0.44em;
+        font-weight: bold;
+        text-align: center; }
+        @media (min-width: 33em) {
+          /* line 151, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+          #content #main-content #gallery-sec .gallery-item p {
+            font-size: 0.55em; } }
+        @media (min-width: 48em) {
+          /* line 151, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+          #content #main-content #gallery-sec .gallery-item p {
+            font-size: 0.73333em; } }
+        @media (min-width: 64em) {
+          /* line 151, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+          #content #main-content #gallery-sec .gallery-item p {
+            font-size: 0.91667em; } }
+        @media (min-width: 75em) {
+          /* line 151, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+          #content #main-content #gallery-sec .gallery-item p {
+            font-size: 1.1em; } }
+
+/* line 162, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+#content .item-st {
+  transition: 0.2s; }
+  /* line 164, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+  #content .item-st img {
+    -webkit-filter: blur(0.8px); }
+  /* line 167, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+  #content .item-st:hover {
+    box-shadow: 0px 0px 10px 1px #727272;
+    z-index: 2;
+    background-color: #00BCD4;
+    transform: scale(1.02);
+    -webkit-filter: blur(0px); }
+  /* line 174, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+  #content .item-st:active {
+    box-shadow: 0px 0px 5px 1px black;
+    background-color: #00BCD4;
+    transform: scale(1); }
+    /* line 178, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_main_content.scss */
+    #content .item-st:active img {
+      -webkit-filter: blur(0px); }
+
+/* line 2, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+footer {
+  font-family: "Roboto";
+  background-color: #B6B6B6;
+  color: black; }
+  /* line 7, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+  footer #pre-footer > div:first-child {
+    font-size: 0.48em; }
+    @media (min-width: 33em) {
+      /* line 7, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+      footer #pre-footer > div:first-child {
+        font-size: 0.6em; } }
+    @media (min-width: 48em) {
+      /* line 7, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+      footer #pre-footer > div:first-child {
+        font-size: 0.8em; } }
+    @media (min-width: 64em) {
+      /* line 7, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+      footer #pre-footer > div:first-child {
+        font-size: 1em; } }
+    @media (min-width: 75em) {
+      /* line 7, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+      footer #pre-footer > div:first-child {
+        font-size: 1.2em; } }
+  /* line 10, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+  footer #pre-footer > div:last-child {
+    font-size: 0.48em; }
+    @media (min-width: 33em) {
+      /* line 10, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+      footer #pre-footer > div:last-child {
+        font-size: 0.6em; } }
+    @media (min-width: 48em) {
+      /* line 10, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+      footer #pre-footer > div:last-child {
+        font-size: 0.8em; } }
+    @media (min-width: 64em) {
+      /* line 10, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+      footer #pre-footer > div:last-child {
+        font-size: 1em; } }
+    @media (min-width: 75em) {
+      /* line 10, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+      footer #pre-footer > div:last-child {
+        font-size: 1.2em; } }
+    /* line 12, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+    footer #pre-footer > div:last-child > div {
+      display: inline-block; }
+    /* line 15, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+    footer #pre-footer > div:last-child h5 {
+      display: inline; }
+    /* line 18, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+    footer #pre-footer > div:last-child span {
+      color: black;
+      display: inline; }
+  /* line 24, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+  footer #post-footer {
+    font-size: 0.44em; }
+    @media (min-width: 33em) {
+      /* line 24, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+      footer #post-footer {
+        font-size: 0.55em; } }
+    @media (min-width: 48em) {
+      /* line 24, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+      footer #post-footer {
+        font-size: 0.73333em; } }
+    @media (min-width: 64em) {
+      /* line 24, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+      footer #post-footer {
+        font-size: 0.91667em; } }
+    @media (min-width: 75em) {
+      /* line 24, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/_footer.scss */
+      footer #post-footer {
+        font-size: 1.1em; } }
+
+/* line 7, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/styles.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 12, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/styles.scss */
+body,
+html {
+  padding: 0.5%;
+  margin: 0; }
+
+@keyframes ball-spin {
+  100% {
+    transform: rotate(360deg); } }
+
+/* line 23, C:/Users/Vasyl/Desktop/ AroundTheBall/styles/styles.scss */
+#spin {
+  display: inline-block;
+  animation-name: ball-spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+
+/*# sourceMappingURL=styles.css.map */

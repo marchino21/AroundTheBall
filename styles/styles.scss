@@ -1,0 +1,31 @@
+@import "font";
+@import "palette";
+@import "button";
+@import "header";
+@import "main_content";
+@import "footer";
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    padding: 0.5%;
+    margin: 0;
+}
+
+@keyframes ball-spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#spin {
+    display: inline-block;
+    animation-name: ball-spin;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
